@@ -1,0 +1,3 @@
+dotnet ef dbcontext scaffold "Server=(localdb)\mssqllocaldb;Dat	abase=AdventureWorks2017;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+dotnet ef dbcontext scaffold "Server=(localdb)\sqlexpress;Dat	abase=AdventureWorks2017;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
