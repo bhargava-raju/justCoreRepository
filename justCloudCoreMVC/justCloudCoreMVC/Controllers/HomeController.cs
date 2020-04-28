@@ -9,6 +9,7 @@ using justCloudCoreMVC.Models;
 
 namespace justCloudCoreMVC.Controllers
 {
+    //Adding comments to the cs file
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
